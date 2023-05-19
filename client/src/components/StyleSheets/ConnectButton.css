@@ -1,0 +1,75 @@
+.my-custom-class {
+    font-family: 'Epilogue', sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 26px !important;
+    box-shadow:'5px 5px 5px rgba(2, 2, 2, 0.25)' !important;
+    color: white !important;
+    min-height: 52px !important;
+    /* padding-left: 16px !important;
+    padding-right: 16px !important; */
+    border-radius: 100px !important;
+    border: 0px !important;
+    /* border: 0px solid #EF5A75; */
+    gap: 0.5em !important;
+    background-color: 'rgba(255, 114, 114, 0.75)' !important;
+
+
+  }
+
+    /* .parent span {  /* span komponente za ih stavitvise u sredinu */
+    /* max-height: 15px !important; */
+    /* display: flex !important; */
+    /* flex-wrap: wrap !important; */
+    /* flex-direction: column !important; */
+    /* font-weight: 400; */
+    /* row-gap: 0px !important; */
+    /* align-items: center !important; */
+    /* font-size: 0.8em; */
+
+
+  .my-custom-class:focus::after {
+    content: "" !important;
+    position: absolute !important;
+    top: -5px !important;
+    right: -5px !important;
+    bottom: -5px !important;
+    left: -5px !important;
+    border: 0px solid rgba(242, 123, 145, 0.75) !important;
+    border-radius: 0px !important;
+  }
+
+  .css-rolojl { /*dropdown*/
+    /* font-family: 'Epilogue', sans-serif !important; */
+    padding: 0 !important;
+    margin: 0 !important;
+    background: #f1f1f7e3 !important;
+    color: #000 !important;
+    list-style: none !important;
+    border-radius: 0.5em !important;
+    overflow: hidden !important;
+    position: relative !important;
+    pointer-events: auto !important;
+    /* border-radius: 25px !important; */
+    border: 0px !important;
+}
+
+.css-1jwqrnm {  /*network picker*/
+    margin: -0.25em 0;
+    background: #f1f1f700 !important;
+    color: #000;
+    border: 1px solid #00000040;
+    border-radius: 0.25em;
+    padding: 0.25em;
+    width: 100%;
+    -webkit-flex-shrink: 1;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+    font-size: 1em;
+}
+
+.css-0 {
+    border: 0px !important;
+}
+
+
